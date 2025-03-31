@@ -1,0 +1,91 @@
+body {
+  font-family: monospace;
+  background-image: linear-gradient(darkblue, rgb(0, 0, 50));
+}
+
+header {
+  background-color: rgb(2, 61, 211);
+  border: solid 2px white;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header * {
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
+
+nav {
+  background: rgb(2, 61, 211);
+  padding: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin: auto;
+  border-radius: 100px;
+}
+
+nav a {
+  color: white;
+  margin: 0px 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section-flex {
+  margin: 25px;
+  background-color: rgb(2, 61, 211);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 250px;
+  align-items: center;
+}
+
+.section-flex div {
+  font-size: 48px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px 30px;
+}
+
+.div-flex {
+  margin: 25px;
+  background-color: rgb(2, 61, 211);
+  display: flex;
+  flex-flow: wrap;
+}
+
+.div-flex div {
+  font-size: 48px;
+  border: 2px solid black;
+  background-color: white;
+  margin: 10px;
+  padding: 10px 40px;
+}
+
+.div-flex2 {
+  margin: 25px;
+  background-color: rgb(2, 61, 211);
+  display: flex;
+  flex-flow: wrap-reverse;
+}
+
+.div-flex2 div {
+  font-size: 48px;
+  border: 2px solid black;
+  background-color: white;
+  margin: 10px;
+  padding: 10px 40px;
+}
