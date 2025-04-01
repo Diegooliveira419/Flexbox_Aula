@@ -23,7 +23,7 @@ nav {
   background: rgb(2, 61, 211);
   padding: 15px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   margin: auto;
   border-radius: 100px;
@@ -48,7 +48,6 @@ nav a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height: 250px;
   align-items: center;
 }
 
